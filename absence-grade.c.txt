@@ -3,17 +3,18 @@
 int main() {
     int grade;
     int absence;
-    printf("whats your grade(100/?)\n");
+    printf("What's your grade(100/?)\n");
     scanf("%d" , &grade);
     
-    printf("How many absences do you have\n");
+    printf("How many absences do you have?\n");
     scanf("%d" , &absence); 
     
     if (grade<50 || absence>=10) {
-        printf("kaldınız\n");
+        printf("You failed.\n");
     } else {
-        printf("geçtiniz\n");
+        printf("You passed.\n");
 }
 
     return 0;
+
 }
