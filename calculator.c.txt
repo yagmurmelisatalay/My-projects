@@ -1,25 +1,27 @@
 #include <stdio.h>
 
 int main() {
-    int sayi1,sayi2;
-    printf("1. sayıyı girin\n");
+    int sayi1;
+    int sayi2;
+    printf("1. sayıyı girin.\n");
     scanf("%d" , &sayi1);
     
-    printf("2. sayıyı girin\n");
+    printf("2. sayıyı girin.\n");
     scanf("%d" , &sayi2);
     
     int toplam= sayi1+sayi2;
     int fark= sayi1-sayi2;
     int carpim= sayi1*sayi2;
     int bolum_tam= sayi1/sayi2;
-    float bolum_float= (float) sayi1/sayi2;
+    float bolum_float= (float)sayi1/sayi2;
     
-    printf("iki sayının toplamı %d\n" , toplam);
-    printf("iki sayının farkı %d\n" , fark);
-    printf("iki sayının carpımı %d\n" , carpim);
-    printf("iki sayının tam sayı bolumu %d\n" , bolum_tam);
-    printf("iki sayının ondalıklı bölümü %.2f\n" , bolum_float);
+    printf("İki sayının toplamı: %d\n" , toplam);
+    printf("İki sayının farkı: %d\n" , fark);
+    printf("İki sayının çarpımı: %d\n" , carpim);
+    printf("İki sayının tam sayı bölümü: %d\n" , bolum_tam);
+    printf("İki sayının ondalıklı bölümü: %.2f\n" , bolum_float);
     
 
     return 0;
+
 }
